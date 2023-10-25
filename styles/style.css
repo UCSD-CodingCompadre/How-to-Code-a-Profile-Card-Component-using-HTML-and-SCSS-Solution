@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+body .card {
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 25px;
+  position: relative;
+  width: 350px;
+  z-index: 2;
+}
+body .card .top-section {
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 150px;
+  width: 100%;
+}
+body .card .bottom-section {
+  width: 100%;
+}
+body .card .bottom-section .image-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -55px;
+  width: 110px;
+}
+body .card .bottom-section .image-container img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+body .card .bottom-section .flex-container-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+}
+body .card .bottom-section .flex-container-1 .heading-1 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .card .bottom-section .flex-container-1 .text-1 {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .card .bottom-section .text-2 {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+  margin-top: 12.5px;
+  text-align: center;
+}
+body .card .bottom-section .border {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  margin-top: 25px;
+  width: 100%;
+}
+body .card .bottom-section .flex-container-2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+body .card .bottom-section .flex-container-2 .stat-container {
+  text-align: center;
+}
+body .card .bottom-section .flex-container-2 .stat-container .heading-2 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+}
+body .card .bottom-section .flex-container-2 .stat-container .text-3 {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.top-left-circle {
+  height: 450px;
+  left: -225px;
+  position: absolute;
+  top: -225px;
+  width: 450px;
+  z-index: 1;
+}
+
+.bottom-right-circle {
+  bottom: -225px;
+  height: 450px;
+  position: absolute;
+  right: -225px;
+  width: 450px;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  .top-left-circle {
+    height: 900px;
+    top: -450px;
+    width: 900px;
+  }
+  .bottom-right-circle {
+    bottom: -450px;
+    height: 900px;
+    width: 900px;
+  }
+}/*# sourceMappingURL=style.css.map */
