@@ -166,6 +166,8 @@ body
 
 .top-left-circle
 {
+
+    // Set the dimensions and use the dimensions to position the image
     height: 450px;
     left: -225px;
     position: absolute;
@@ -176,6 +178,8 @@ body
 
 .bottom-right-circle
 {
+
+    // Set the dimensions and use the dimensions to position the image
     bottom: -225px;
     height: 450px;
     position: absolute;
@@ -184,10 +188,12 @@ body
     z-index: 1;
 }
 
-@media only screen and (min-width: 600px) 
+@media only screen and (min-width: 1024px) 
 {
     .top-left-circle
     {
+
+        // Set new position and dimeneions for desktop
         height: 900px;
         top: -450px;
         width: 900px;
@@ -195,6 +201,8 @@ body
 
     .bottom-right-circle
     {
+
+        // Set new position and dimeneions for desktop
         bottom: -450px;
         height: 900px;
         width: 900px;
